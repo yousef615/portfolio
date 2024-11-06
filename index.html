@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <!-- Import New Font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,
+wght@0,300..800;1,300..800&family=Roboto:wght@100;300;400&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<!-- use JQuery -->
+<!-- Import icons from fontAwesome  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- Start header section -->
+  <header id="nav" >
+    <nav  class="navbar navbar-expand-lg">
+      <div class="container-md">
+        <a class="navbar-brand" href="#home"><img class="logo" src="Images/logo-removebg-preview.png" alt="" width="60px" height="60px"></a>
+        <button class="navbar-toggler   btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item me-2">
+              <a class="  nav-link pt-3 active"  href="#home">Home</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link pt-3 ss" href="#my-projects">Projects</a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link pt-3" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link pt-3" href="#contact-me">Contact Me</a>
+              </li>
+              <button class="btn  btn-outline-success rounded login">Say Hi</button>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      </header>>
+    <!-- End header section -->
+
+    <!-- Start Home Section -->
+    
+      <div  id="home" >
+        <div class=" container">
+          <p class="greeting">Hi, my name is </p>
+          <h1 class="name">Yousef Ibrahim</h1>
+          <h2 class="work">I'm  a FrontEnd Developer</h2>
+          <p class="skills">I'm a software engineer specializing in building
+           (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible,
+           human-centered products at Upstatement.</p>
+            
+        
+        <!-- Skills -->
+        <div class="skills-bar "> <h2> My Skills </h2>
+        <p>HTML</p>
+        <div class="cont">
+  <div class="skills html"><span>90%</span></div>
+</div>
+
+<p>CSS</p>
+<div class="cont">
+  <div class="skills css"><span>85%</span></div>
+</div>
+
+<p>JavaScript</p>
+<div class="cont">
+  <div class="skills js"><span>75%</span></div>
+</div>
+
+<p>JQuery</p>
+<div class="cont">
+  <div class="skills jquery"><span>60%</span></div>
+</div>
+    </div>
+  </div>
+</div>
+
+
+<div class="social ">
+  <ul class="social-list ms-auto mb-2 mb-lg-0">
+    <!-- use attribute target with value _blank to open the link in another page  -->
+    <li class="item pb-3" >
+      <a class="item  "  href="https://github.com/yousef615 " target="_blank">
+        <i class="fa fa-github fs-4"></i></a>
+    </li>
+    <li class="item pb-4" >
+      <a class="item  "  href="https://facebook.com/yousef.ibrahim.773124 " target="_blank">
+        <i class="fa fa-facebook fs-4"></i></a>
+    </li><li class="item pb-4" >
+      <a class="item  "  href="https://www.linkedin.com/in/yousef-ibrahim-ba310a264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">
+        <i class="fa fa-linkedin fs-4"></i></a>
+    </li><li class="item pb-4" >
+      <a class="item  "  href="https://x.com/markjhon020 " target="_blank">
+        <i class="fa fa-twitter fs-4"></i></a>
+    </li>
+    <div class="left-line"></div>
+
+   </ul>
+</div>
+<div class="my-mail ml-lg-2">
+  <a class="Gmail" href="mailto:www.yousef712.com@gmail.com" target="_blank">
+    www.yousef712.com@gmail.com</a>
+  <div class="right-line"></div>
+   </div>
+    <!-- End Home Section -->
+    
+    <!-- Start Projects Section -->
+      <div id="my-projects">
+        <div class="container">
+          <h3  class="title mb-5"> My Projects</h3>
+            <!-- First Project -->
+            <div class="project ">
+            <!-- Slide show for project one -->
+            <div id="slideShow" class="slideShow" >
+              <img  src="Images/about-me.jpg" alt="" name="imagesSlide1">
+              <button id = "hideIt" class="hideShow" >Stop the slide show</button>
+            </div>
+            <div class="image">
+            </div>
+            <div class="featured">
+              <p>Featured Project 1</p>
+          <h3 class="project-title"><a href="https://github.com/yousef615?tab=repositories " 
+            target="_blank">Bondi Project</a>
+            <button id="startIt" class="show" >Show some work</button>
+          </h3>
+          <div class="bref"><p >This is my first project,
+            and with some amazings properties using HTML CSS BootStrap and
+            javascript, It still not hosted, because it's not finished yet </p></div>
+          <ul class="key-words text-white-50">
+            <li>HTML</li>
+            <li>CSS </li>
+            <li> javascript</li>
+            <li>jquery</li>
+          </ul>
+
+        </div>
+      </div>
+      <!-- Second Project -->
+      <div class="project ">
+        <!-- Slide show for project two -->
+        <div id="slideShow2" class="slideShow"  >
+          <img  src="Images/about-me.jpg" alt="" name="imagesSlide2">
+          <button id = "hideIt2" class="hideShow" >Stop the slide show</button>
+        </div>
+        <div class="image2">
+        </div>
+        <div class="featured">
+          <p>Featured Project 2</p>
+      <h3 class="project-title"><a href="https://github.com/yousef615?tab=repositories " 
+        target="_blank">Leon Project</a>
+        <button id="startIt2" class="show" >Show some work</button>
+      </h3>
+      <div class="bref"><p >This is my second project,
+       here I have done some tricks inside the website and some animations transforms,
+        this web page focus on using just HTML and CSS  </p></div>
+      <ul class="key-words text-white-50">
+        <li>HTML</li>
+        <li>CSS </li>
+        <li> Animation</li>
+        <li>Tricks</li>
+       </ul>
+
+    </div>
+  </div>
+
+  <!-- Third Project -->
+      <div class="project ">
+          <!-- Slide show for project three -->
+        <div id="slideShow3" class="slideShow" >
+          <img  src="Images/about-me.jpg" alt="" name="imagesSlide3">
+          <button id = "hideIt3" class="hideShow" >Stop the slide show</button>
+        </div>
+        <div class="image3">
+    
+        </div>
+        <div class="featured">
+          <p>Featured Project 3</p>
+      <h3 class="project-title"><a class="link" href="https://github.com/yousef615?tab=repositories " 
+        target="_blank">Kasper Project</a>
+        <button id="startIt3" class="show" >Show some work</button>
+      </h3>
+      <div class="bref"><p >This is my third project,
+      while browsing this site you will dicover so many magical colors and photos that would give you inspiration </p></div>
+      <ul class="key-words text-white-50">
+        <li>Kasper</li>
+        <li>Color List</li>
+        <li> Gallery</li>
+        <li>Magic</li>
+       </ul>
+     
+    </div>
+    </div>
+          </div>
+        </div>
+    <!-- End Projects Section -->
+
+    <!-- Start About Section -->
+    <div id="about-me">
+      <div class="container ">
+        <h3  class="title mb-5"> About Me</h3>
+        <div class="content ">
+          <!-- Using grid template to make the design responsive -->
+
+          <div class="row">
+            <!-- space used to make a start space on right -->
+            
+            <div class="description col-sm-12 col-md-6 col-lg-5 ">
+              <p class="pref-me">Hello! My name is Brittany and I enjoy creating things that live on the internet.
+                My interest in web development
+                started back in 2012 when I decided to try editing custom Tumblr
+                themes — turns out hacking together a custom reblog button taught
+                me a lot about HTML & CSS!</p>
+                <p class="background"> Fast-forward to today,
+                  and I've had the privilege of working at an advertising agency, a start-up,
+                  a huge corporation, and a student-led design studio. My main focus these days is building accessible,
+                  inclusive products and digital experiences  
+                  <button class=" btn btn-link read-more">See more ...</button></p>
+                  
+                  <div class="more-about-me">
+                    <p>I also recently launched a course that covers everything you need
+                      to build a web app with the Spotify API using Node & React.
+                      Here are a few technologies I've been working with recently:</p>
+                      <ul class="tech">
+                        <li>JavaScript (ES6+)</li>
+                        <li> React</li>
+                        <li>NodeJS</li>
+                        <li>TypeScript</li>
+                        <li>WordPress</li>
+                        <li>Elevently</li>
+                      </ul>
+                      <button class="btn btn-link read-less">See less</button>
+                 </div>
+                </div>
+                <div class="space col-sm-2 col-md-1 col-lg-2"></div>
+                <div class="my-personal-image col-sm-10 col-md-5 col-lg-5 ">
+                  <img src="Images/newperson.png" width="250" height="250" alt="">
+                </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- End About Section -->
+
+    <!-- Start Contact Section -->
+    <div id="contact-me">
+      <div class="container">
+        <h3  class="title mb-5"> Contact Me</h3>
+        <div class="content lg-ml-5">
+          <div class="row">
+          <form class="contact-form col-sm-12 col-md-6 sm-mb-5  text-sm-center">
+             <h3>Let's see how I can help you!</h3>
+             <p>Send me a message and I'll respond as soon as possible</p>
+            <label>Your Name:</label>
+            <input type="text"  name="namee" placeholder="Yousef Ibrahim" >
+            <span name="nameError"></span>
+            <label>Your Email:</label>
+            <input type="text"  name="email"  placeholder="Ex: www.google@gmail.com">
+            <span name="invalidEmail" ></span>
+            <span id="invalid-email-message"></span>
+            <label >Message:</label>
+            <textarea name="message" placeholder="write down your technical problem..."></textarea>
+            <span name="messageError"></span>
+            <input class="submit" type="submit" value="Send message">
+          </form>
+          <div class="image col-sm-12 col-md-6">
+            <img src="Images/Contact-us.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- End Contact Section -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    
+  </body>
+  </html>
