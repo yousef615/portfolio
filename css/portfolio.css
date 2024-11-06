@@ -406,7 +406,7 @@ color: var(--selected-item);
     right: 0;
     width: 60%;
     height: 300px;
-    background-image:url(Images/First_Project.png); 
+    background-image:"../Images/First_Project.png"; 
     background-size: contain;
     background-repeat: no-repeat;
     
