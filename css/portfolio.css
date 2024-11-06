@@ -373,8 +373,8 @@ color: var(--selected-item);
     @media (max-width:768px) {
         
         .project .slideShow img{
-            width: 70%;
-            height: 60%;
+            width: 85%;
+            height: 50%;
         }}
        .project .slideShow button {
            position:absolute;
