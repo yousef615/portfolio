@@ -364,7 +364,7 @@ color: var(--selected-item);
     }
     @media (max-width: 768px) {
     .project .slideShow{
-       left: -100px;
+       left: -22px;
     }}
     .project .slideShow img{
         width: 50%;
