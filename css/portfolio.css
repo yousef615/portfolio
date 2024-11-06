@@ -516,7 +516,7 @@ background-color:#0a192f87;
     right: 0;
     width: 60%;
     height: 300px;
-    background-image:url(Images/second-project.png); 
+    background-image:url(../Images/second-project.png); 
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -555,7 +555,7 @@ background-color:#0a192f87;
     right: 0;
     width: 60%;
     height: 300px;
-    background-image:url(Images/Third-Project.png); 
+    background-image:url(../Images/Third-Project.png); 
     background-size: contain;
     background-repeat: no-repeat;
     
