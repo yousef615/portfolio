@@ -53,7 +53,7 @@ document.forms[0].onsubmit = function (e) {
   let invalidEmail = document.querySelector("[name = 'invalidEmail'");
   let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (emailRegex.test(chEmailField.value)) {
-    emailValid === true; // Email is valid
+    emailField = true; // Email is valid
   } else {
     invalidEmail.innerText = "Please enter a valid email address.";
     chEmailField.focus();
