@@ -225,4 +225,22 @@ $(document).ready(function () {
       $(".read-more").slideDown("fast");
     });
   });
+  // effect on say Hi buttom
+  $(".login").on("click", function () {
+    $(".login").animate({ height: "toggle", border: "0", padding: "0" }, 2000);
+    $(".successfully").animate(
+      { top: "50%", padding: "20px", width: "65vw", height: "20vh" },
+      4000
+    );
+    $(".suc_text").animate({ fontSize: "200%" }, 4000),
+      $(".successfully").animate(
+        { top: "-20%", width: "0", height: "0" },
+        2000
+      );
+    $(".suc_text").animate({ fontSize: "0%" }, 1000),
+      $(".login").animate(
+        { height: "toggle", border: "0", padding: "6px 12px" },
+        2000
+      );
+  });
 });
