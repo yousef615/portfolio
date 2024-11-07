@@ -147,12 +147,7 @@ document.getElementById("hideIt3").onclick = pause3;
 $(document).ready(function () {
   // scroll to top on load
   $(window).scrollTop(0);
-
-  // login button event
-  $(".login").click(function () {
-    $(window).scrollTop(3700);
-  });
-
+  
   // Slide nav-button using jquery
 
   // if the page opened directly in small srcreen
