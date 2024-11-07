@@ -97,6 +97,27 @@ header.active {
 /* End Header Section */
 
 /* Start Home Section */
+.successfully {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0;
+    height: 0;
+    padding: 0;
+    left: 50%;
+    top: -20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
+    color: #4BB543;
+    background-color: #6edff6;
+    z-index: 4;
+    direction: rtl;
+}
+.suc_text{
+    font-size: 0%;
+}
 /* Mobile */
 
 .social {
